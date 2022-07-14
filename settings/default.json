@@ -2,7 +2,7 @@
     "multi_bl_wl": true,
 
     "NIDigital": {
-        "deviceID": "PXI2Slot3",
+        "deviceID": "PXI1Slot7",
         "read_chan": 8,
         "pinmap": "settings/default.pinmap",
         "specs": [
