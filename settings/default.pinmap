@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2">
 	<Instruments>
-		<NIDigitalPatternInstrument name="PXI2Slot3" numberOfChannels="32" />
+		<NIDigitalPatternInstrument name="PXI1Slot7" numberOfChannels="32" />
 	</Instruments>
 	<Pins>
 		<DUTPin name="wl_clk" />
@@ -81,32 +81,32 @@
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
-		<Connection pin="wl_clk" siteNumber="0" instrument="PXI2Slot3" channel="4" />
-		<Connection pin="wl_addr_0" siteNumber="0" instrument="PXI2Slot3" channel="1" />
-		<Connection pin="wl_addr_1" siteNumber="0" instrument="PXI2Slot3" channel="3" />
-		<Connection pin="wl_addr_2" siteNumber="0" instrument="PXI2Slot3" channel="5" />
-		<Connection pin="wl_addr_3" siteNumber="0" instrument="PXI2Slot3" channel="7" />
-		<Connection pin="wl_addr_4" siteNumber="0" instrument="PXI2Slot3" channel="9" />
-		<Connection pin="wl_addr_5" siteNumber="0" instrument="PXI2Slot3" channel="11" />
-		<Connection pin="sl_addr_0" siteNumber="0" instrument="PXI2Slot3" channel="13" />
-		<Connection pin="sl_addr_1" siteNumber="0" instrument="PXI2Slot3" channel="15" />
-		<Connection pin="sl_addr_2" siteNumber="0" instrument="PXI2Slot3" channel="30" />
-		<Connection pin="sl_addr_3" siteNumber="0" instrument="PXI2Slot3" channel="28" />
-		<Connection pin="sl_addr_4" siteNumber="0" instrument="PXI2Slot3" channel="26" />
-		<Connection pin="sl_addr_5" siteNumber="0" instrument="PXI2Slot3" channel="24" />
-		<Connection pin="sl_addr_6" siteNumber="0" instrument="PXI2Slot3" channel="22" />
-		<Connection pin="sl_dec_en" siteNumber="0" instrument="PXI2Slot3" channel="19" />
-		<Connection pin="wl_dec_en" siteNumber="0" instrument="PXI2Slot3" channel="17" />
-		<Connection pin="sl_ext_0" siteNumber="0" instrument="PXI2Slot3" channel="8" />
-		<Connection pin="bl_ext_0" siteNumber="0" instrument="PXI2Slot3" channel="12" />
-		<Connection pin="bl_ext_1" siteNumber="0" instrument="PXI2Slot3" channel="10" />
-		<Connection pin="wl_ext_0" siteNumber="0" instrument="PXI2Slot3" channel="20" />
-		<Connection pin="wl_ext_1" siteNumber="0" instrument="PXI2Slot3" channel="18" />
-		<Connection pin="wl_ext_2" siteNumber="0" instrument="PXI2Slot3" channel="16" />
-		<Connection pin="wl_ext_3" siteNumber="0" instrument="PXI2Slot3" channel="14" />
-		<Connection pin="dummy_wl_sel_0" siteNumber="0" instrument="PXI2Slot3" channel="29" />
-		<Connection pin="dummy_wl_sel_1" siteNumber="0" instrument="PXI2Slot3" channel="27" />
-		<Connection pin="dummy_sl_sel" siteNumber="0" instrument="PXI2Slot3" channel="25" />
-		<Connection pin="bl_test" siteNumber="0" instrument="PXI2Slot3" channel="21" />
+		<Connection pin="wl_clk" siteNumber="0" instrument="PXI1Slot7" channel="4" />
+		<Connection pin="wl_addr_0" siteNumber="0" instrument="PXI1Slot7" channel="1" />
+		<Connection pin="wl_addr_1" siteNumber="0" instrument="PXI1Slot7" channel="3" />
+		<Connection pin="wl_addr_2" siteNumber="0" instrument="PXI1Slot7" channel="5" />
+		<Connection pin="wl_addr_3" siteNumber="0" instrument="PXI1Slot7" channel="7" />
+		<Connection pin="wl_addr_4" siteNumber="0" instrument="PXI1Slot7" channel="9" />
+		<Connection pin="wl_addr_5" siteNumber="0" instrument="PXI1Slot7" channel="11" />
+		<Connection pin="sl_addr_0" siteNumber="0" instrument="PXI1Slot7" channel="13" />
+		<Connection pin="sl_addr_1" siteNumber="0" instrument="PXI1Slot7" channel="15" />
+		<Connection pin="sl_addr_2" siteNumber="0" instrument="PXI1Slot7" channel="30" />
+		<Connection pin="sl_addr_3" siteNumber="0" instrument="PXI1Slot7" channel="28" />
+		<Connection pin="sl_addr_4" siteNumber="0" instrument="PXI1Slot7" channel="26" />
+		<Connection pin="sl_addr_5" siteNumber="0" instrument="PXI1Slot7" channel="24" />
+		<Connection pin="sl_addr_6" siteNumber="0" instrument="PXI1Slot7" channel="22" />
+		<Connection pin="sl_dec_en" siteNumber="0" instrument="PXI1Slot7" channel="19" />
+		<Connection pin="wl_dec_en" siteNumber="0" instrument="PXI1Slot7" channel="17" />
+		<Connection pin="sl_ext_0" siteNumber="0" instrument="PXI1Slot7" channel="8" />
+		<Connection pin="bl_ext_0" siteNumber="0" instrument="PXI1Slot7" channel="12" />
+		<Connection pin="bl_ext_1" siteNumber="0" instrument="PXI1Slot7" channel="10" />
+		<Connection pin="wl_ext_0" siteNumber="0" instrument="PXI1Slot7" channel="20" />
+		<Connection pin="wl_ext_1" siteNumber="0" instrument="PXI1Slot7" channel="18" />
+		<Connection pin="wl_ext_2" siteNumber="0" instrument="PXI1Slot7" channel="16" />
+		<Connection pin="wl_ext_3" siteNumber="0" instrument="PXI1Slot7" channel="14" />
+		<Connection pin="dummy_wl_sel_0" siteNumber="0" instrument="PXI1Slot7" channel="29" />
+		<Connection pin="dummy_wl_sel_1" siteNumber="0" instrument="PXI1Slot7" channel="27" />
+		<Connection pin="dummy_sl_sel" siteNumber="0" instrument="PXI1Slot7" channel="25" />
+		<Connection pin="bl_test" siteNumber="0" instrument="PXI1Slot7" channel="21" />
 	</Connections>
 </PinMap>
